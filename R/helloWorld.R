@@ -2,7 +2,7 @@
 function(
 	n 
 	) {
-  if(is.character(n) == FALSE) then stop("You need a number")
+  if(is.character(n) == FALSE) {stop("You need a number")}
 	return(rep("Hello World", n))
 } ## END helloWorld Function
 
